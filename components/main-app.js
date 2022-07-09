@@ -4,6 +4,8 @@ function MyApp() {
     <h1>👋 Hello, world! 🌍😃</h1>
     <HookExample></HookExample>
     <AnotherHook></AnotherHook>
+    <hr></hr>
+    <EffectHookExample></EffectHookExample>
   </div>
   );
 }
