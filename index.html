@@ -11,17 +11,11 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="text/babel">
-    
-      function MyApp() {
-        return <h1>👋 Hello, world! 🌍😃</h1>;
-      }
 
-      const container = document.getElementById('root');
-      const root = ReactDOM.createRoot(container);
-      root.render(<MyApp />);
+    <script type="text/babel" src="components/hook-example.js"></script>
+    <script type="text/babel" src="components/another-hook.js"></script>
 
-    </script>
+    <script type="text/babel" src="components/main-app.js"></script>
     <!--
       Note: this page is a great way to try React but it's not suitable for production.
       It slowly compiles JSX with Babel in the browser and uses a large development build of React.
